@@ -1,3 +1,20 @@
+@media screen and (max-width: 960px) {
+
+   .fondo_amarillo {
+       display: block;
+   }
+   .fondo_azul {
+       display: block!important;
+   }
+   .fondo_amarillo {
+    display: block!important;
+}
+   .equipos_fondo_amarillo {
+       display: block;
+   }
+}
+
+
 .card {
     width: 15rem;
     margin: 1rem;
