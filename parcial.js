@@ -2,7 +2,7 @@ const baseDeDatos = [
     {
         id: 1,
         nombre: 'Remera Boca Juniors 1970',
-        descripcion: 'Remera retro perteneciente a la temporadaa 1970',
+        descripcion: 'Remera retro perteneciente a la temporada 1970',
         precio: 1000,
         imagen: './remeras/remera-1.jpg'
     },
@@ -96,6 +96,7 @@ function renderizarProductos() {
         Precio.textContent = info.precio + '$';
         
         const Boton = document.createElement('button');
+        Boton.classList.add("comprar")
         Boton.textContent = 'Agregar al carrito';
         Boton.setAttribute('marcador', info.id);
         Boton.addEventListener('click', agregarProducto);
