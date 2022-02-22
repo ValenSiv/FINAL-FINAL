@@ -100,9 +100,7 @@ span {
     margin-bottom: 1rem;
 }
 
-.pais {
-    margin-top: 3em;
-}
+
 
 .oro {
     display: flex;
@@ -116,19 +114,19 @@ span {
 }
 
 .fondo_azul {
-    background-color: #0B5ED7;
-    background-image: linear-gradient(225deg, #fff700 0%, #0000ff 100%);
+    background-color: #64a2ff;
+    /* background-image:linear-gradient(to bottom,rgb(75, 156, 255) 0%, #F8F9FA 50%); */
     transform: skewY(-2deg);
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+
     padding-top: 1rem;
 }
 
 .fondo_amarillo {
-    background-color: #0B5ED7;
-    background-image:linear-gradient(225deg, #85e5ff 0%, #ffffff72 100%), url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/MI5IO4D4TNDDPMAKHWSW6NWH7A.jpg);
-    transform: skewY(2deg);
+    background-color: #ffea76;
+    /* background-image:linear-gradient(to top, rgb(75, 156, 255) 0%, #F8F9FA 50%); */
+    transform: skewY(-2deg);
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
@@ -145,11 +143,11 @@ span {
     border-radius: 4px;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    transform: skewY(-2deg);
-}
+    transform: skewY(2deg);
+box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);}
 
 .equipos_fondo_azul {
-    width: 20rem;
+    width: 22rem;
     height: 36rem;
     background-color: white;
     margin: 0.5rem;
@@ -157,7 +155,7 @@ span {
     margin-bottom: 2rem;
     margin-top: 1rem;
     transform: skewY(2deg);
-}
+box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);}
 
 
 .ancla {
@@ -201,13 +199,15 @@ form {
   }
 
   footer {
-    height: 11rem;
+    /* height: 15rem; */
     display: flex;
-    color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
     font-size: 1.25rem;
     justify-content: center;
-    background-color: rgb(253, 255, 118);
-    background-image: url(/img/footer.jpg);
+    background-color: rgb(92, 92, 92);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
   }
   
   .alumno {
@@ -236,8 +236,8 @@ form {
   }
 
 .fondo_video {
-    background-color: white;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
   /* //////////////////////////////////// JS */
