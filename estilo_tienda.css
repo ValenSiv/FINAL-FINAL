@@ -15,23 +15,17 @@
  
 
 
- @media screen and (min-width: 960px) {
+ @media screen and (max-width: 960px) {
  
-	 #productos {
-		 flex-direction: row;
-	 }
- 
-	 #productos div {
-		 width: 30%;
-	 }
-
-	 footer ul {
-		 flex-direction: row;
-	 }
- 
-	 #carrito {
+	 div#total {
 		 width: 80%;
-	 }
+	 } 
+	 
+	 div#carrito {
+		width: 80%;
+		height: 20rem;
+	}
+
  }
  
  
