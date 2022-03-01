@@ -1,66 +1,66 @@
 const baseDeDatos = [
     {
         id: 1,
-        nombre: 'Remera Boca Juniors 1970',
-        descripcion: 'Remera retro perteneciente a la temporadaa 1970',
+        nombre: 'Camiseta Boca Juniors 1970',
+        descripcion: 'Camiseta retro titular temporada 1970 con escudo',
         precio: 1000,
-        imagen: './remeras/remera-1.jpg'
+        imagen: './img/remera-1.jpg'
     },
     {
         id: 2,
-        nombre: 'Remera Boca Juniors 1981',
-        descripcion: 'Remera `81 de Diego Armando Maradona',
+        nombre: 'Camiseta Boca Juniors 1981',
+        descripcion: 'Camiseta retro Diego Armando Maradona temporada 1981',
         precio: 2000,
-        imagen: './remeras/remera-2.jpg'
+        imagen: './img/remera-2.jpg'
     },
     {
         id: 3,
-        nombre: 'Remera Boca Juniors 1991',
-        descripcion: 'Remera suplente Fiat perteneciente a la temporada 1991',
+        nombre: 'Camiseta Boca Juniors 1991',
+        descripcion: 'Camiseta retro suplente Fiat temporada 1991',
         precio: 3000,
-        imagen: './remeras/remera-3.jpg'
+        imagen: './img/remera-3.jpg'
     },
     {
         id: 4,
-        nombre: 'Remera Boca Juniors 1987',
-        descripcion: 'Remera suplente Parmalat edicion 1987 retro',
+        nombre: 'Camiseta Boca Juniors 1987',
+        descripcion: 'Camiseta retro suplente Parmalat edicion 1987',
         precio: 4000,
-        imagen: './remeras/remera-4.jpg'
+        imagen: './img/remera-4.jpg'
     },
     {
         id: 5,
-        nombre: 'Remera Boca Juniors 1975',
-        descripcion: 'Remera retro Chapa Suñe temporada 1970',
+        nombre: 'Camiseta Boca Juniors 1975',
+        descripcion: 'Camiseta retro Chapa Suñe temporada 1970',
         precio: 5000,
-        imagen: './remeras/remera-5.jpg'
+        imagen: './img/remera-5.jpg'
     },
     {
         id: 6,
-        nombre: 'Remera Boca Juniors 1994',
-        descripcion: 'Remera titular retro Parmalat temporada 1994',
+        nombre: 'Camiseta Boca Juniors 1994',
+        descripcion: 'Camiseta retro titular Parmalat temporada 1994',
         precio: 6000,
-        imagen: './remeras/remera-6.jpg '
+        imagen: './img/remera-6.jpg '
     },
     {
         id: 7,
-        nombre: 'Remera Boca Juniors 1952',
-        descripcion: 'Remera retro adidas temporada 1952',
+        nombre: 'Camiseta Boca Juniors 1985',
+        descripcion: 'Camiseta retro titular Adidas temporada 1985',
         precio: 3500,
-        imagen: './remeras/remera-7.jpg'
+        imagen: './img/remera-7.jpg'
     },
     {
         id: 8,
-        nombre: 'Remera Boca Juniors 2000',
-        descripcion: 'Remera retro suplente temporada 2000',
+        nombre: 'Camiseta Boca Juniors 2000',
+        descripcion: 'Camiseta retro suplente temporada 2000',
         precio: 4500,
-        imagen: './remeras/remera-8.jpg'
+        imagen: './img/remera-8.jpg'
     },
     {
         id: 9,
-        nombre: 'Remera Boca Juniors 1973',
-        descripcion: 'Remera retro alternativa blanca 1973',
+        nombre: 'Camiseta Boca Juniors 2004',
+        descripcion: 'Camiseta retro alternativa Megatone blanca temporada 2004',
         precio: 6000,
-        imagen: './remeras/remera-9.jpg'
+        imagen: './img/remera-9.jpg'
     }
     
 ]
