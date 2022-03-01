@@ -53,14 +53,17 @@
        display: block;
    }
 
+   .titulo_tienda {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
 }
 
-p {
-   text-align: left;
-   padding-left: 10px;
-   padding-right: 10px;
 
-}
+
+
 
 /* //////////////////////////////////////// GENERAL ////////////////////////////////////////////// */
  
@@ -78,6 +81,14 @@ main {
     padding-bottom: 3rem;
     background-color: #F8F9FA;
  }
+
+
+ p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
 
 
 
@@ -159,10 +170,6 @@ button {
    color: white;
 }
 
-.producto {
-   margin: 0!important;
-   padding-top: 4rem;
-}
 
 .a {
    width: 300px;
