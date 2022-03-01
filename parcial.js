@@ -42,21 +42,21 @@ const baseDeDatos = [
         imagen: './remeras/remera-6.jpg '
     },
     {
-        id: 5,
+        id: 7,
         nombre: 'Remera Boca Juniors 1952',
         descripcion: 'Remera retro adidas temporada 1952',
         precio: 3500,
         imagen: './remeras/remera-7.jpg'
     },
     {
-        id: 5,
+        id: 8,
         nombre: 'Remera Boca Juniors 2000',
         descripcion: 'Remera retro suplente temporada 2000',
         precio: 4500,
         imagen: './remeras/remera-8.jpg'
     },
     {
-        id: 5,
+        id: 9,
         nombre: 'Remera Boca Juniors 1973',
         descripcion: 'Remera retro alternativa blanca 1973',
         precio: 6000,

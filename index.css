@@ -13,16 +13,37 @@
        display: block;
    }
    
-   .row {
-       margin-right: 0px!important;
-       margin-left: 0px;
+   .equipos_fondo_azul {
+       display: block;
+       margin: auto;
+   }
+
+   .equipos_fondo_amarillo {
+    display: block;
+    margin: auto;
+}
+
+   .fondo_azul {
+       height: 116rem;
+   }
+
+   .fondo_amarillo {
+       height: 116rem;
    }
 
    .card {
        width: 10rem!important;
    }
-}
 
+   .video {
+       width: 100%;
+       height: 14rem;
+   }
+
+   /* .la-boca {
+       height: 40rem;
+   } */
+}
 
 .card {
     width: 15rem;
@@ -44,8 +65,6 @@ nav {
 .carousel-control-prev {
     color: black;
 }
-
-
 
 span {
     text-decoration: line-through;
@@ -83,7 +102,7 @@ span {
 }
 
 .video {
-    height: 30vw;
+    height: 24rem;
     margin-bottom: 3em;
 }
 
@@ -114,8 +133,6 @@ span {
     margin-bottom: 1rem;
 }
 
-
-
 .oro {
     display: flex;
     justify-content: center;
@@ -129,17 +146,14 @@ span {
 
 .fondo_azul {
     background-color: #64a2ff;
-    /* background-image:linear-gradient(to bottom,rgb(75, 156, 255) 0%, #F8F9FA 50%); */
     transform: skewY(-2deg);
     display: flex;
     justify-content: center;
-
     padding-top: 1rem;
 }
 
 .fondo_amarillo {
     background-color: #ffea76;
-    /* background-image:linear-gradient(to top, rgb(75, 156, 255) 0%, #F8F9FA 50%); */
     transform: skewY(-2deg);
     display: flex;
     justify-content: center;
@@ -153,24 +167,23 @@ span {
     width: 22rem;
     height: 36rem;
     background-color: white;
-    margin: 0.5rem;
     border-radius: 4px;
     margin-bottom: 2rem;
     margin-top: 1rem;
     transform: skewY(2deg);
-box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);}
+    box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);
+}
 
 .equipos_fondo_azul {
     width: 22rem;
     height: 36rem;
     background-color: white;
-    margin: 0.5rem;
     border-radius: 4px;
     margin-bottom: 2rem;
     margin-top: 1rem;
     transform: skewY(2deg);
-box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);}
-
+    box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);
+}
 
 .ancla {
     background-image: url(/img/ancla.jpg);
@@ -183,8 +196,6 @@ box-shadow: 0px 1px 8px 1px rgba(123,123,123,0.46);}
 .ver {
     margin-bottom: 4rem;
 }
-
-
 
 form {
     margin: 0 auto;
@@ -213,7 +224,6 @@ form {
   }
 
   footer {
-    /* height: 15rem; */
     display: flex;
     color: rgb(0, 0, 0);
     font-size: 1.25rem;
@@ -221,7 +231,6 @@ form {
     background-color: #cccccc;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
   }
   
   .alumno {
@@ -239,11 +248,9 @@ form {
     color: white;
   }
 
-
   a {
     color: rgb(0, 0, 0);
   }
-
 
   .blanco {
       color: white;
@@ -253,6 +260,3 @@ form {
     padding-top: 2rem;
     margin-top: 2rem;
 }
-
-  /* //////////////////////////////////// JS */
-

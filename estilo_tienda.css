@@ -23,16 +23,13 @@
 	 
 	 div#carrito {
 		width: 80%;
-		height: 20rem;
+		height: 35rem;
 	}
 
 	#laboca {
 		display: block;
 	}
-
  }
- 
- 
 
  p {
 	text-align: left;
@@ -52,9 +49,7 @@ img {
 
 }
  
-
- 
- .total {
+.total {
 	 width: 100px;
 	 height: 80px;
 	 background-color: white;
@@ -62,19 +57,15 @@ img {
 	 padding: 10px;
  }
 
-
  #items {
 	 display: flex;
 	 flex-wrap: wrap;
 	 width: 70rem;
-
 	 border-radius: 10px;
 	 margin-bottom: 3rem;
-
  }
 
 button {
-
 	background-color: #227afd;
 	border-radius: 5px;
 	font-weight: 500;
@@ -83,12 +74,10 @@ button {
 	color: white;
  }
 
-
 .producto {
 	margin: 0!important;
 	padding-top: 4rem;
 }
-
 
 .a {
 	width: 300px;
@@ -97,13 +86,12 @@ button {
 	margin: 30px;
 	border-radius: 10px;
     box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
-	
 }
 
 #carrito {
 	font-size: 1.25rem;
 	background-color: white;
-	height: 11.4rem;
+	height: 18rem;
 	list-style: none;
 	width: 30.5%;
 	margin-bottom: 1rem;
@@ -111,13 +99,11 @@ button {
 	margin: auto;
 	border-radius: 7px 7px 0px 0px;
 	box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
-
 }
 
 #total {
 	font-size: 1.35rem;
     box-shadow: 0px 0px 8px 2px rgba(119, 119, 119, 0.144);
-
 	background-color: white;
 	height: 3rem;
 	list-style: none;
@@ -151,7 +137,6 @@ button.comprar {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
-
 
 .imagen_card {
 	width: 14em;
