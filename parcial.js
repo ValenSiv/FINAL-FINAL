@@ -2,7 +2,7 @@ const baseDeDatos = [
     {
         id: 1,
         nombre: 'Remera Boca Juniors 1970',
-        descripcion: 'Remera retro perteneciente a la temporada 1970',
+        descripcion: 'Remera retro perteneciente a la temporadaa 1970',
         precio: 1000,
         imagen: './remeras/remera-1.jpg'
     },
@@ -43,24 +43,24 @@ const baseDeDatos = [
     },
     {
         id: 5,
-        nombre: 'Remera Boca Juniors 1975',
-        descripcion: 'Remera retro Chapa Suñe temporada 1970',
-        precio: 5000,
-        imagen: './remeras/remera-5.jpg'
+        nombre: 'Remera Boca Juniors 1952',
+        descripcion: 'Remera retro adidas temporada 1952',
+        precio: 3500,
+        imagen: './remeras/remera-7.jpg'
     },
     {
         id: 5,
-        nombre: 'Remera Boca Juniors 1975',
-        descripcion: 'Remera retro Chapa Suñe temporada 1970',
-        precio: 5000,
-        imagen: './remeras/remera-5.jpg'
+        nombre: 'Remera Boca Juniors 2000',
+        descripcion: 'Remera retro suplente temporada 2000',
+        precio: 4500,
+        imagen: './remeras/remera-8.jpg'
     },
     {
         id: 5,
-        nombre: 'Remera Boca Juniors 1975',
-        descripcion: 'Remera retro Chapa Suñe temporada 1970',
-        precio: 5000,
-        imagen: './remeras/remera-5.jpg'
+        nombre: 'Remera Boca Juniors 1973',
+        descripcion: 'Remera retro alternativa blanca 1973',
+        precio: 6000,
+        imagen: './remeras/remera-9.jpg'
     }
     
 ]
@@ -96,7 +96,6 @@ function renderizarProductos() {
         Precio.textContent = info.precio + '$';
         
         const Boton = document.createElement('button');
-        Boton.classList.add("comprar")
         Boton.textContent = 'Agregar al carrito';
         Boton.setAttribute('marcador', info.id);
         Boton.addEventListener('click', agregarProducto);

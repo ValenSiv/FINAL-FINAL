@@ -12,6 +12,15 @@
    .equipos_fondo_amarillo {
        display: block;
    }
+   
+   .row {
+       margin-right: 0px!important;
+       margin-left: 0px;
+   }
+
+   .card {
+       width: 10rem!important;
+   }
 }
 
 
@@ -29,8 +38,6 @@ nav {
 }
 
 .nav-link {
-    padding-left: 1em!important;
-    padding-right: 1em!important;
     font-weight: bold;
 }
 
@@ -91,9 +98,9 @@ span {
     margin-right: 0!important;
 }
 
-.card {
+.si {
     width: 18rem!important;
-    height: 26rem!important;
+    height: 26rem;
 }
 
 .productos {
@@ -208,10 +215,10 @@ form {
   footer {
     /* height: 15rem; */
     display: flex;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
     justify-content: center;
-    background-color: rgb(92, 92, 92);
+    background-color: #cccccc;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
